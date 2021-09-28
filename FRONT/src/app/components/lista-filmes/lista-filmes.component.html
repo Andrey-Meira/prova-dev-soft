@@ -1,0 +1,7 @@
+<ol [@listAnimation]="filmes.length">
+    <li *ngFor="let filme of filmes">
+        {{ filme.nome }}
+    </li>
+</ol>
+
+<a routerLink="/filmes/cadastrar">Cadastrar Produto</a>
