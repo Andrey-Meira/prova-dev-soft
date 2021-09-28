@@ -1,0 +1,28 @@
+POST https://localhost:5001/api/filme/create
+Content-Type: application/json
+
+{
+    "nome": "Filme",
+    "sinopse": "2019",
+    "duracao": 120,
+    "Categoria": "Ação"
+}
+
+###
+GET https://localhost:5001/api/filme/list
+
+###
+GET https://localhost:5001/api/filme/getbyid/3
+
+###
+DELETE https://localhost:5001/api/filme/delete/1
+
+###
+POST  https://localhost:5001/api/filme/update
+Content-Type: application/json
+
+{
+    "id": 2,
+    "nome": "Filme EDITADO",
+    "duracao": 200
+}
